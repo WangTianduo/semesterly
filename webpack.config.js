@@ -18,8 +18,8 @@ const webpack = require('webpack');
 const BundleTracker = require('webpack-bundle-tracker');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-const isProd = process.env.NODE_ENV === 'production';
-const isDev = process.env.NODE_ENV === 'development';
+const isProd = false;
+const isDev = true;
 
 console.log(`Running Webpack for ${process.env.NODE_ENV}`);
 
